@@ -35,7 +35,7 @@ m \frac{d^2x}{dt^2} + \gamma \frac{dx}{dt} + kx = 0
 ## 🧮 数値解法：オイラー法（Euler Method）
 
 以下の差分式で近似計算：
-
+$$
 \[
 v_{n+1} = v_n + \Delta t \left( -\frac{\gamma}{m} v_n - \frac{k}{m} x_n \right)
 \]
@@ -43,7 +43,7 @@ v_{n+1} = v_n + \Delta t \left( -\frac{\gamma}{m} v_n - \frac{k}{m} x_n \right)
 \[
 x_{n+1} = x_n + \Delta t \cdot v_n
 \]
-
+$$
 ---
 
 ## 🧰 入出力仕様
