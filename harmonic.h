@@ -14,6 +14,8 @@ typedef struct {
 
 Parameters* input_parameters(Parameters *prm);
 
+Parameters* judge_transition(Parameters *prm);
+
 Parameters* transition_decision(Parameters *prm);
 
 Parameters* r_greater_zero(Parameters *prm);
